@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sample notepad</title>
+	<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript">
+		if(!window.$){
+			window.$ = window.jQuery = require("./js/jquery.js");
+		}
+		</script>
+	<script type="text/javascript" src="./js/codemirror.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/codemirror.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/froala.min.css">
+	<script type="text/javascript" src="./js/froala_editor.pkgd.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/froala_editor.pkgd.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/css/font-awesome.min.css">
+	<script type="text/javascript" src="./js/xml.min.js"></script>
+	<script type="text/javascript" src="./js/codemirror.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/codemirror.min.css">
+</head>
+<body>
+<textarea id="froala-editor"></textarea>
+<script type="text/javascript">
+	$(function () {
+		$('textarea#froala-editor').froalaEditor();
+	})
+</script>
+<script>if (window.module) module = window.module;</script>
+</body>
+</html>
