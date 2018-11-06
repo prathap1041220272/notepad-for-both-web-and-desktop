@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "electron": "^3.0.7"
+    "electron": "^3.0.7",
+    "electron-packager": "^12.2.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
